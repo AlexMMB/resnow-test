@@ -1,0 +1,265 @@
+/* Fuente personalizada de Google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Estilos base */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #6B21A8; /* Purple-800 */
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los enlaces del menú */
+nav ul li a {
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #D1D5DB; /* Purple-300 */
+}
+
+/* Estilos para los botones de acceso */
+button, a {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover, a:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el menú móvil */
+#mobile-menu {
+    position: absolute;
+    top: 4rem; /* Alineación debajo del header */
+    right: 0;
+    background-color: #6B21A8; /* Purple-800 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+}
+
+#mobile-menu a {
+    display: block;
+    padding: 0.75rem 0;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#mobile-menu a:hover {
+    color: #D1D5DB; /* Purple-300 */
+}
+
+/* Sección hero */
+section.bg-gradient-to-br {
+    background: linear-gradient(135deg, #6B21A8, #000000); /* Purple-900 to Black */
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+section.bg-gradient-to-br h1 {
+    font-size: 3rem; /* 4xl */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+section.bg-gradient-to-br p {
+    font-size: 1.25rem; /* Text-xl */
+    margin-bottom: 2rem;
+}
+
+section.bg-gradient-to-br a {
+    background-color: #D63F6A; /* Pink-600 */
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s ease;
+}
+
+section.bg-gradient-to-br a:hover {
+    background-color: #D13761; /* Pink-700 */
+}
+
+/* Sección "Bienvenidos" */
+section.bg-gray-100 {
+    background-color: #F3F4F6; /* Gray-100 */
+    padding: 4rem 1rem;
+}
+
+section.bg-gray-100 h2 {
+    font-size: 2.25rem; /* 3xl */
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+section.bg-gray-100 p {
+    font-size: 1.125rem; /* Text-lg */
+    margin-top: 1rem;
+}
+
+/* Estilos para los platos del menú */
+section.bg-purple-900 {
+    background-color: #6B21A8; /* Purple-900 */
+    padding: 4rem 1rem;
+}
+
+section.bg-purple-900 h2 {
+    font-size: 2.25rem; /* 3xl */
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+section.bg-purple-900 .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+section.bg-purple-900 .grid div {
+    background-color: #6B21A8; /* Purple-800 */
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section.bg-purple-900 .grid div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+section.bg-purple-900 .grid h3 {
+    font-size: 1.25rem; /* Text-xl */
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+section.bg-purple-900 .grid p {
+    font-size: 1rem; /* Text-gray-300 */
+    margin-bottom: 1rem;
+}
+
+section.bg-purple-900 .grid .price {
+    font-size: 1.25rem; /* Text-2xl */
+    font-weight: 700;
+}
+
+section.bg-purple-900 a {
+    background-color: #D63F6A; /* Pink-600 */
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s ease;
+}
+
+section.bg-purple-900 a:hover {
+    background-color: #D13761; /* Pink-700 */
+}
+
+/* Sección de eventos */
+section.bg-gray-100 {
+    background-color: #F3F4F6;
+    padding: 4rem 1rem;
+}
+
+section.bg-gray-100 h2 {
+    font-size: 2.25rem; /* 3xl */
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+section.bg-gray-100 .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+section.bg-gray-100 .grid div {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section.bg-gray-100 .grid div:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+section.bg-gray-100 .grid h3 {
+    font-size: 1.5rem; /* Text-2xl */
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+section.bg-gray-100 .grid p {
+    font-size: 1.125rem; /* Text-lg */
+    color: #4B5563; /* Gray-600 */
+}
+
+section.bg-gray-100 i {
+    color: #6B21A8; /* Purple-500 */
+    margin-right: 0.5rem;
+}
+
+/* Sección para reservas */
+section.bg-black {
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.8); /* Black with 80% opacity */
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+section.bg-black h2 {
+    font-size: 2.25rem; /* 3xl */
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+section.bg-black a {
+    background-color: #D63F6A; /* Yellow-500 */
+    color: #2D3748; /* Gray-800 */
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s ease;
+}
+
+section.bg-black a:hover {
+    background-color: #D63F6A; /* Yellow-600 */
+}
+
+/* Footer */
+footer {
+    background-color: #1F2937; /* Gray-900 */
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 1rem; /* Text-md */
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+footer a {
+    color: #D63F6A; /* Pink-500 */
+    text-decoration: underline;
+}
+footer a:hover {
+    color: #D63F6A; /* Pink-600 */
+}
+/* Estilos para el formulario de reservas */    

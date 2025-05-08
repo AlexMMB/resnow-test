@@ -1,0 +1,14 @@
+/* Inicia las reglas base de Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aquí puedes incluir clases personalizadas si las necesitas */
+@layer utilities {
+  /* Ejemplo de clase personalizada */
+  .fadeIn {
+    animation: fadeIn 1s ease-in-out;
+  }
+}
+
+/* Puedes incluir otras reglas personalizadas de CSS aquí si las necesitas */

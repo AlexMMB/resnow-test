@@ -1,0 +1,86 @@
+.form-container {
+    background: linear-gradient(145deg, rgba(30,30,30,0.85), rgba(40,40,40,0.9));
+    backdrop-filter: blur(16px);
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    border: 1px solid #4b5563; /* Tailwind's gray-600 */
+    background-color: #1f2937;  /* Tailwind's gray-800 */
+    color: #f3f4f6;             /* Tailwind's gray-100 */
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #ec4899; /* Tailwind's pink-500 */
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.3);
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    background-color: #ec4899; /* pink-500 */
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #db2777; /* pink-600 */
+    transform: translateY(-2px);
+  }
+  
+  .login-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.4);
+  }
+  
+  .admin-login-button {
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10px;
+    background-color: #374151; /* gray-700 */
+    color: #e5e7eb;            /* gray-200 */
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-login-button:hover {
+    background-color: #4b5563; /* gray-600 */
+  }
+  
+  .google-login-button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #111827; /* gray-900 */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .google-login-button:hover {
+    background-color: #f3f4f6; /* gray-100 */
+    transform: translateY(-1px);
+  }
+  
+  .google-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
